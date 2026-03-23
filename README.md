@@ -29,8 +29,8 @@ videoseek-cli search --video interview.mp4 --query "Find when the guest laughs"
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/neo/VideoSeek-CLI.git
-cd VideoSeek-CLI
+git clone https://github.com/dakshjain-1616/videoseek-cli
+cd videoseek-cli
 
 # 2. Install dependencies
 pip install -r requirements.txt
@@ -205,7 +205,7 @@ Output verifies all three test scenarios: car crash at `01:23:45`, sunset at `00
 |----------|---------|-------------|
 | `OPENROUTER_API_KEY` | _(empty)_ | OpenRouter API key. Omit to use mock/demo mode. Get one at openrouter.ai |
 | `OPENROUTER_BASE_URL` | `https://openrouter.ai/api/v1` | OpenRouter endpoint URL |
-| `VIDEOSEEK_MODEL` | `google/gemini-2.5-flash` | Vision model ID for frame analysis |
+| `VIDEOSEEK_MODEL` | `google/gemini-2.5-flash-lite` | Vision model ID for frame analysis. Alternatives: `xiaomi/mimo-v2-omni`, `google/gemini-2.5-flash` |
 | `VIDEOSEEK_FPS` | `1` | Frames per second to sample from video |
 | `VIDEOSEEK_MAX_FRAMES` | `300` | Maximum frames to analyze per query |
 | `VIDEOSEEK_SIMILARITY_THRESHOLD` | `0.35` | Minimum similarity score (0–1) for results |
