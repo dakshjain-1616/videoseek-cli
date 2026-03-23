@@ -3,6 +3,8 @@
 
 # VideoSeek-CLI
 
+> Built autonomously using [NEO](https://heyneo.so) — your autonomous AI Agent
+
 **Extract key moments from videos using natural language queries.**
 
 VideoSeek-CLI is a command-line tool that combines state-of-the-art AI vision models with semantic vector search to let you find any moment in a video by simply describing what you're looking for. No complex setup, no manual frame scrubbing — just natural language.
