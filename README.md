@@ -1,3 +1,4 @@
+[![Try NEO in VS Code](https://img.shields.io/badge/VS%20Code-Try%20NEO-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=NeoResearchInc.heyneo)
 [![Built autonomously using NEO](https://img.shields.io/badge/Built%20with-NEO%20Autonomous%20AI-blueviolet?style=flat-square)](https://heyneo.so)
 
 # VideoSeek-CLI
